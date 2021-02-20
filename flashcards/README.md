@@ -7,7 +7,7 @@ Displays and hides the flashcard question after clicking
 
 ### App Walk-though
 
-<img src="https://imgur.com/NCxXePJ" width=200><br>
+<img src="https://i.imgur.com/NCxXePJ.gif" width=200><br>
 
 ## Required
 - [x] Create New Project in Xcode

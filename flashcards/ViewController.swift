@@ -45,7 +45,21 @@ class ViewController: UIViewController {
         choice4.layer.borderColor = #colorLiteral(red: 0.6636485457, green: 0.7353687882, blue: 1, alpha: 1);
         choice4.layer.cornerRadius = 15.0;
     }
-
+    
+    
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let navigationController = segue.destination as! UINavigationController;
+        let creationController = navigationController.topViewController as! CreationViewController;
+        creationController.flashcardController = self;
+        if (segue.identifier == "EditSegue"){
+            creationController.initialQuestion = frontLabel.text;
+            creationController.initialAnswer = backLabel.text;
+            creationController.extra1 = choice1.currentTitle!;
+            creationController.extra2 = choice3.currentTitle!;
+            creationController.extra3 = choice4.currentTitle!;
+        }
+    }
     
     @IBAction func didTapFlashcard(_ sender: Any) {
         if (frontLabel.isHidden){
@@ -55,8 +69,21 @@ class ViewController: UIViewController {
         }
         
     }
+    func updateFlashcard(question: String, answer:String, extraAnswer1:String, extraAnswer2:String, extraAnswer3:String)
+    {
+        frontLabel.text = question;
+        backLabel.text = answer;
+        
+        choice1.setTitle(extraAnswer1, for: .normal);
+        choice2.setTitle(answer, for: .normal);
+        choice3.setTitle(extraAnswer2, for: .normal);
+        choice4.setTitle(extraAnswer3, for: .normal);
+    }
+    
+    
     
     @IBAction func didTapChoice1(_ sender: Any) {
+        
         choice1.isHidden = true;
     }
     

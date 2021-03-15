@@ -37,6 +37,10 @@ class CreationViewController: UIViewController {
     @IBAction func didTapCancel(_ sender: Any) {
         dismiss(animated: true);
     }
+    func textFieldShouldReturn(textField: UITextField) -> Bool {
+            textField.resignFirstResponder()
+            return true
+        }
     
     @IBAction func didTapDone(_ sender: Any) {
         let questionText = questionTextField.text;
@@ -51,7 +55,11 @@ class CreationViewController: UIViewController {
             alert.addAction(okAction);
             present (alert, animated: true);
         }else{
-            flashcardController.updateFlashcard(question: questionText!, answer: answerText!, extraAnswer1: extraAnswer1Text!, extraAnswer2: extraAnswer2Text!, extraAnswer3: extraAnswer3Text!);
+            var isExisting = true;
+            if initialQuestion == nil{
+                isExisting = false;
+            }
+            flashcardController.updateFlashcard(question: questionText!, answer: answerText!, extraAnswer1: extraAnswer1Text!, extraAnswer2: extraAnswer2Text!, extraAnswer3: extraAnswer3Text!, isExisting: isExisting);
         dismiss (animated:true);
         }
     }
@@ -65,4 +73,21 @@ class CreationViewController: UIViewController {
     }
     */
 
+    @IBAction func done(_ sender: UITextField) {
+        sender.resignFirstResponder()
+    }
+    @IBAction func doneAnswer(_ sender: UITextField) {
+        sender.resignFirstResponder()
+    }
+    @IBAction func doneExtra1(_ sender: UITextField) {
+        sender.resignFirstResponder()
+    }
+    @IBAction func doneExtra2(_ sender: UITextField) {
+        sender.resignFirstResponder()
+    }
+    
+    @IBAction func doneExtra3(_ sender: UITextField) {
+        sender.resignFirstResponder()
+    }
+    
 }

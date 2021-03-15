@@ -1,10 +1,32 @@
 ## Andrew's Flashcard
 
+## Lab 3
+
+### App Description
+Added the ability to save these flashcards, so you're able to pull up the flashcards you created last time
+
+### App Walk-though
+
+<img src="https://i.imgur.com/W9HLlLx.gif" width=200><br>
+
+<img src="https://i.imgur.com/iH3qSqA.gif" width=200><br>
+
+<img src="https://i.imgur.com/oJwH14n.gif" width=200><br>
+
+## Required
+- [X] User can browse through multiple flashcards
+- [X] User can re-open the app and see previously created flashcards
+- [X] Push code to GitHub
+## Optional
+- [X] User can delete a flashcard
+- [X] User can edit existing flashcard
+- [X] User can store multiple choice questions
+
 
 ## Lab 2
 
 ### App Description
-Adds screens to the app! This allows editing and creating new questions.
+Added screens to the app! This allows editing and creating new questions.
 
 ### App Walk-though
 

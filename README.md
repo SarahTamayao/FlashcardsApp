@@ -13,6 +13,8 @@ Added the ability to save these flashcards, so you're able to pull up the flashc
 
 <img src="https://i.imgur.com/oJwH14n.gif" width=200><br>
 
+<img src="https://i.imgur.com/N48eQu9.gif" width=200><br>
+
 ## Required
 - [X] User can browse through multiple flashcards
 - [X] User can re-open the app and see previously created flashcards

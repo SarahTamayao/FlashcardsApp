@@ -7,7 +7,7 @@ Added animations and app icon + splash screen!
 
 ### App Walk-though
 
-<img src="https://i.imgur.com/dypQ6Y0.gif" width=200><br>
+<img src="https://i.imgur.com/y0H6nC6.gif" width=200><br>
 
 <img src="https://i.imgur.com/KVgVXeN.gif" width=200><br>
 

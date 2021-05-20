@@ -7,6 +7,7 @@ on to their app. I have included selected gifs below as a demonstration of the a
 
 ### App Demo
 
-![] (https://i.imgur.com/KVgVXeN.gif)
-
-<img src="https://i.imgur.com/KVgVXeN.gif" width=200><br> <img src="https://i.imgur.com/822czKA.gif" width=200><br>
+<p float="left">
+  <img src="https://i.imgur.com/KVgVXeN.gif" width=200 />
+  <img src="https://i.imgur.com/822czKA.gif" width=200 />
+</p>

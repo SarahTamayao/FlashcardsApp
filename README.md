@@ -9,8 +9,5 @@ on to their app. I have included selected gifs below as a demonstration of the a
 
 <p float="left">
   <img src="https://i.imgur.com/KVgVXeN.gif" width=200 />
-  <img src="https://i.imgur.com/822czKA.gif" width=200 />
-  <img src="https://i.imgur.com/7dEt3LE.gif" width=200 />
-  <img src="https://i.imgur.com/gNhREqQ.gif" width=200 />
-  <img src="https://i.imgur.com/E99IsuM.gif" width=200 />
+ 
 </p>
